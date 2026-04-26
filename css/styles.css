@@ -3,12 +3,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* 1. BANNER */
 .banner img {
   width: 100%;
   height: auto;
   display: block;
 }
 
+/* 2. NAVBAR */
 .navbar {
   background-color: #ffffff;
   padding: 10px;
@@ -25,6 +27,7 @@ body {
   text-decoration: underline;
 }
 
+/* 3. TITLE */
 .title h1 {
   text-align: center;
   color: #333;
@@ -32,16 +35,19 @@ body {
   margin-bottom: 20px;
 }
 
+/* 4. CONTAINER */
 .container {
   padding-left: 5%;
   padding-right: 5%;
 }
 
+/* 5. MAP */
 #map {
   height: 700px;
   background-color: #ddd;
 }
 
+/* 6. FOOTER */
 footer {
   margin-top: 20px;
   padding: 15px;
