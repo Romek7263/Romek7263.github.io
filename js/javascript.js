@@ -53,7 +53,7 @@ async function addDistrictsGeoJson(url) {
 
   polygons.addTo(map);
 }
-
+addDistrictsGeoJson('geojson/tartu_city_districts_edu.geojson');
 //clusters
 
 async function addCelltowersGeoJson(url) {
