@@ -48,7 +48,7 @@ async function addDistrictsGeoJson(url) {
 
   const polygons = L.geoJson(data, {
     onEachFeature: popUPinfo,
-    style: polygonStyle,   // 👈 SEE ON UUS OSA
+    style: polygonStyle,
   });
 
   polygons.addTo(map);
