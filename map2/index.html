@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tartu map application</title>
+
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+     <link rel="stylesheet" href="css/appStyle.css">
+
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/leaflet-choropleth@1.1.4/dist/choropleth.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.min.js"></script>
+
+  </head>
+  <body>
+
+<div id="info-box">
+  <div id="info-header">
+    <h4>Query Results</h4>
+    <button id="info-close">x</button>
+  </div>
+  <div id="info-content">
+    Click on the map to get feature info
+  </div>
+</div>
+   <div id="map"></div>
+
+   <div class="map-title">
+    Tartu Map Application
+   </div>
+
+    <button id="applySettingsButton" class="default-button">
+      Default View
+    </button>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-vector-tile-layer@0.11.0/dist/VectorTileLayer.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+  <script type="module" src="js/appCode.js"></script>
+
+  </body>
+</html>
