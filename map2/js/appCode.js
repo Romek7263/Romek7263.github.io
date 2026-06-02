@@ -1,4 +1,4 @@
-import { turfFunctions } from "./turfPractice.js";
+import { turfFunctions } from "./turfpractice.js";
 import * as layers from "./layers.js";
 let activeWmsLayers = {};
 const overlayLayers = {};
